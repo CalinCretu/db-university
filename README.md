@@ -55,7 +55,7 @@ from `departments`;
 
 8. Quanti sono gli insegnanti che non hanno un numero di telefono? (50)
 ```
-SELECT * 
+SELECT COUNT(*)
 FROM `teachers`
-WHERE `phone` IS NULL;
+WHERE `phone` IS NOT NULL;
 ```
