@@ -57,5 +57,5 @@ from `departments`;
 ```
 SELECT COUNT(*)
 FROM `teachers`
-WHERE `phone` IS NOT NULL;
+WHERE `phone` IS NULL;
 ```
